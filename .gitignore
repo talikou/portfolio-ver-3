@@ -1,0 +1,11 @@
+# Default ignored files
+/node_modules/
+.cache/
+dist/
+.env
+.DS_Store
+coverage/
+.vscode/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
