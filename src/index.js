@@ -1,9 +1,13 @@
-import { ChakraProvider, ColorModeScript } from '@chakra-ui/react';
-import React from 'react';
-import * as ReactDOM from 'react-dom/client';
-import App from './App';
+import React from "react";
+import * as ReactDOM from "react-dom/client";
 
-const container = document.getElementById('root');
+// UI
+import { ChakraProvider, ColorModeScript } from "@chakra-ui/react";
+
+// components
+import App from "./App";
+
+const container = document.getElementById("root");
 const root = ReactDOM.createRoot(container);
 
 root.render(
@@ -12,4 +16,3 @@ root.render(
     <App />
   </ChakraProvider>
 );
-

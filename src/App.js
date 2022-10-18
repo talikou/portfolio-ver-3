@@ -1,8 +1,11 @@
-import { VStack } from '@chakra-ui/react'
-import About from './components/About'
-import Profile from './components/Profile'
-import Social from './components/Social'
-import Header from './components/Header'
+// UI
+import { VStack } from "@chakra-ui/react";
+
+// screens
+import About from "./screens/About";
+import Profile from "./screens/Profile";
+import Social from "./screens/Social";
+import Header from "./screens/Header";
 
 function App() {
   return (
@@ -12,7 +15,7 @@ function App() {
       <Social />
       <Profile />
     </VStack>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -13,7 +13,11 @@ function About() {
       justify="space-evenly"
       direction={{ base: "column-reverse", lg: "row" }}
     >
-      <Box my={{ base: "3rem" }} align="flex-start" w={{ lg: "40rem" }}>
+      <Box
+        my={{ base: "1rem", lg: "3rem" }}
+        align="flex-start"
+        w={{ lg: "40rem" }}
+      >
         <Text
           fontSize={{ base: "1.5rem", sm: "2.5rem", md: "5xl" }}
           fontWeight="600"
@@ -48,11 +52,12 @@ function About() {
       <Box
         display={{ base: "flex" }}
         justifyContent={{ base: "space-evenly", lg: "center" }}
-        w={{ base: "100%", lg: "20rem" }}
+        alignItems="center"
       >
         <Image
           src="https://github.com/talikou.png"
-          boxSize={{ base: "15rem", lg: "20rem" }}
+          mt={{ base: "1rem", lg: "0" }}
+          boxSize={{ base: "13rem", sm: "15rem", md: "17rem", lg: "19rem" }}
           borderRadius="50%"
           boxShadow="lg"
           backgroundColor="transparent"
