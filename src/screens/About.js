@@ -1,8 +1,7 @@
-import { Button } from "@chakra-ui/button";
-import { useColorMode } from "@chakra-ui/color-mode";
-import { Image } from "@chakra-ui/image";
-import { Flex, Box, Text } from "@chakra-ui/layout";
 import React from "react";
+
+// UI
+import { Flex, Box, Text, Image, Button, useColorMode } from "@chakra-ui/react";
 
 function About() {
   const { colorMode } = useColorMode();

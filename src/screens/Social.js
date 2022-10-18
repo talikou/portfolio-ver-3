@@ -1,9 +1,18 @@
 import React from "react";
+
+// UI
 import { Flex, Icon } from "@chakra-ui/react";
-import { FaFacebookF, FaGoogle, FaInstagram, FaGithub } from "react-icons/fa";
+
+// icons
+import {
+  FaFacebook as FaceBookIcon,
+  FaGoogle as GoogleIcon,
+  FaInstagram as InstagramIcon,
+  FaGithub as GithubIcon,
+} from "react-icons/fa";
 
 function Social() {
-  const icons = [FaFacebookF, FaGoogle, FaInstagram, FaGithub];
+  const icons = [FaceBookIcon, GoogleIcon, InstagramIcon, GithubIcon];
 
   return (
     <Flex

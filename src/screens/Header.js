@@ -1,6 +1,13 @@
-import { useColorMode } from "@chakra-ui/color-mode";
-import { IconButton, Flex, Center } from "@chakra-ui/react";
-import { FaSun, FaMoon, FaInstagram, FaGithub } from "react-icons/fa";
+// UI
+import { IconButton, Flex, Center, useColorMode } from "@chakra-ui/react";
+
+// icons
+import {
+  FaSun as SunIcon,
+  FaMoon as MoonIcon,
+  FaInstagram as InstagramIcon,
+  FaGithub as GithubIcon,
+} from "react-icons/fa";
 
 function headerIcon(pIcon, url, label) {
   return (
@@ -25,18 +32,18 @@ function Header() {
       <Flex gap={{ base: "1rem", sm: "1.5rem" }}>
         <Flex gap={{ base: "0.5rem" }}>
           {headerIcon(
-            <FaInstagram />,
+            <InstagramIcon />,
             () => window.open("https://www.instagram.com/talikou/"),
             "instagram"
           )}
           {headerIcon(
-            <FaGithub />,
+            <GithubIcon />,
             () => window.open("https://www.github.com/talikou/"),
             "github"
           )}
         </Flex>
         {headerIcon(
-          isDark ? <FaSun /> : <FaMoon />,
+          isDark ? <SunIcon /> : <MoonIcon />,
           toggleColorMode,
           "sunOrMoon"
         )}

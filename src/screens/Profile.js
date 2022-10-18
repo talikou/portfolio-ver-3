@@ -1,7 +1,7 @@
 import React from "react";
 
 // UI
-import { Box, Flex, Heading, Text } from "@chakra-ui/layout";
+import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 
 // icons
 import {

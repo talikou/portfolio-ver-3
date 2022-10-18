@@ -1,6 +1,7 @@
-import { Flex, Text } from "@chakra-ui/layout";
-import Icon from "@chakra-ui/icon";
 import React from "react";
+
+// UI
+import { Flex, Text, Icon } from "@chakra-ui/react";
 
 function Apps(pIcon, pBg, pText, pHover = "purple.400", pColor = "white") {
   return (
