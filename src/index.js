@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(container);
 
 root.render(
   <ChakraProvider>
-    <ColorModeScript initialColorMode="light"></ColorModeScript>
+    <ColorModeScript initialColorMode="light" />
     <App />
   </ChakraProvider>
 );

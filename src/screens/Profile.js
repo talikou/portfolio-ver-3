@@ -7,7 +7,7 @@ import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 import {
   DiAndroid as AndroidIcon,
   DiCodeigniter as CodeigniterIcon,
-  DiWebplatform as WebplatformIcon,
+  DiWebplatform as WebPlatformIcon,
 } from "react-icons/di";
 
 // components
@@ -42,7 +42,7 @@ function Profile() {
             "red.400",
             "black"
           )}
-          {Apps(WebplatformIcon, "gray.100", "Web Apps", "green.400", "black")}
+          {Apps(WebPlatformIcon, "gray.100", "Web Apps", "green.400", "black")}
         </Flex>
       </Box>
     </Flex>
